@@ -387,7 +387,7 @@ class Game(Distribution):
                     #print(f"self.trump_possession = {self.trump_possession}")
                     #print(self.play_card)
                     self.actual_turn.append(self.play_card)
-                    print(self.actual_turn)
+                    print(f"cartes sur la table : {self.actual_turn}")
                     self.power_of_cards()
                 #print("exit loop")
                 self.power_of_cards()
