@@ -28,9 +28,11 @@ Voulez vous cette carte comme atout : spade(Y/N) :Y
 * Si un autre joueur gagne le tour, le gagnant jouera une carte de son choix et il faudra respecter la règle du jeu (jouer la même couleur, sinon couper, sinon se défausser...)
 * Une aide s'affichera : exemple avec une coupe
 ```
+cartes sur la table : {('9', 'clover'): 0}
 North : [{('K', 'heart'): 4}, {('9', 'diamond'): 0}, {('As', 'heart'): 11}, {('J', 'spade'): 20}, {('As', 'spade'): 11}, {('8', 'spade'): 0}, {('7', 'spade'): 0}]
 condition defausse
 Jouez du spade pour couper
 Quelle carte voulez-vous jouer? (entrer le numéro de la carte) : 
 ...
 ```
+* La partie se termine une fois les 500 points atteint par une équipe
